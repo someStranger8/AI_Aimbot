@@ -1,9 +1,10 @@
 
 from ultralytics import YOLO
-import pyautogui
+from time import sleep
 
-def main() -> None:
-    ...
+tick_rate = 1/32
+model = YOLO("model.pt")
 
-if __name__ == "__main__":
-    main()
+while 1:
+    result = model("screen")
+    sleep(tick_rate)
