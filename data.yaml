@@ -1,0 +1,5 @@
+train: ./data_set/train/images
+val: ./data_set/valid/images
+
+nc: 6
+names: ["team_t", "ct", "ct_head", "t", "t_head", "team_ct"]
