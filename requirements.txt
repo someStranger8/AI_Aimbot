@@ -1,3 +1,4 @@
 ultralytics
 pyautogui
 torchvision
+pynput
